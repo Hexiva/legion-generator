@@ -1,0 +1,66 @@
+#story {
+  display: none;
+}
+#story {
+  margin-top:20px;
+  padding:20px;
+  width:500px;
+  border:1px #fff solid;
+  font-family: 'Major Mono Display', monospace;
+}
+
+h1 {
+  font-family: 'Major Mono Display', monospace;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#but {
+    margin-top:30px;
+    margin-left:30px;
+  color: black;
+}
+
+#sidebar{
+  width: 167px;
+  padding-right:20px;
+  position:fixed;
+  border-right: 1px #fff solid;
+  margin-left:10px;
+  height:100%;
+}
+
+#sidebar img {
+  margin-top:10px;
+  width:100%;
+  height:auto;
+}
+#title {
+  text-align:center;
+  color: #eaeaea;
+  font-size: 18px;
+  font-family: impact;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom:1px #fff solid;
+
+}
+.link {
+  text-align: center;
+  border-bottom:1px #fff solid;
+  color: #eaeaea;
+  font-size: 18px;
+  font-family: impact;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.container{
+  margin-left:300px;
+
+}
