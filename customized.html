@@ -8,31 +8,37 @@
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+    <script src="scripts-customized.js"></script>
     <title>Fanfic Generator</title>
   </head>
   <body>
     <div id="sidebar">
-      <div id="title"><img src="C:\Users\Hexiva\Documents\fanfic-generator\images\title.png"/><br>Prompt Generator</div>
+      <div id="title"><img src="https://github.com/Hexiva/legion-generator/blob/master/images/title.png?raw=true"/><br>Prompt Generator</div>
       <div class="link">Simple</div>
       <div class="link">Complex</div>
       <div class="link">Customized</div>
-      <img src="C:\Users\Hexiva\Documents\fanfic-generator\images\sidebar.png"/>
+      <img src="https://github.com/Hexiva/legion-generator/blob/master/images/sidebar.png?raw=true"/>
     </div>
     <div class="container">
       <form>
-            <div class="form-group">
-              <label for="char1">Character one:</label>
-              <input id="char1" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="char2">Character two:</label>
-              <input id="char2" class="form-control" type="text">
-            </div>
+              <div class="form-group">
+                <label for="char1">Character one:</label>
+                <input id="char1" class="form-control" type="text">
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other" checked> Other
+              </div>
+              <div class="form-group">
+                <label for="char2">Character two:</label>
+                <input id="char2" class="form-control" type="text">
+                <input type="radio" name="gender2" value="male"> Male<br>
+                <input type="radio" name="gender2" value="female"> Female<br>
+                <input type="radio" name="gender2" value="other" checked> Other
+              </div>
 
-            <button type="submit" class="btn">Generate prompt!</button>
-          </form>
-      <div id="story">
+              <button type="submit" class="btn">Generate prompt!</button>
+            </form>
+        <div id="story">
         <h1>Prompt:</h1>
         <span class="content"></span>, <span class="prompt"></span>
       </div>
