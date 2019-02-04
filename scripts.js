@@ -6,14 +6,14 @@ $(document).ready(function() {
     console.log(charNum)
 
     if (charNum === 0) {
-      var characters = ["Oliver Bird", "Kerry Loudermilk", "Cary Loudermilk", "Amahl Farouk", "Amy Haller", "David Haller", "Lenny Busker", "Melanie Bird", "Sydney Barett", "Ptonomy Wallace", "Clark DeBussy",];
+      var characters = ["Oliver Bird", "Kerry Loudermilk", "Cary Loudermilk", "Amahl Farouk", "Amy Haller", "David Haller", "Lenny Busker", "Melanie Bird", "Sydney Barett", "Ptonomy Wallace", "Clark DeBussy","Admiral Fukuyama",];
 
       var char1 = characters[Math.floor(Math.random() * characters.length)];
       $(".content").text(char1);
     }
 
     if (charNum === 1) {
-      var characters = ["Oliver Bird", "Kerry Loudermilk", "Cary Loudermilk", "Amahl Farouk", "Amy Haller", "David Haller", "Lenny Busker", "Melanie Bird", "Sydney Barett", "Ptonomy Wallace", "Clark DeBussy",];
+      var characters = ["Oliver Bird", "Kerry Loudermilk", "Cary Loudermilk", "Amahl Farouk", "Amy Haller", "David Haller", "Lenny Busker", "Melanie Bird", "Sydney Barett", "Ptonomy Wallace", "Clark DeBussy","Admiral Fukuyama",];
       var punctArray = ["/", " & ",]
 
       var char1 = characters[Math.floor(Math.random() * characters.length)];
@@ -30,7 +30,7 @@ $(document).ready(function() {
       $(".content").text(char1+punct+char2);
     }
     if (charNum === 2) {
-      var characters = ["Oliver Bird", "Kerry Loudermilk", "Cary Loudermilk", "Amahl Farouk", "Amy Haller", "David Haller", "Lenny Busker", "Melanie Bird", "Sydney Barett", "Ptonomy Wallace", "Clark DeBussy",];
+      var characters = ["Oliver Bird", "Kerry Loudermilk", "Cary Loudermilk", "Amahl Farouk", "Amy Haller", "David Haller", "Lenny Busker", "Melanie Bird", "Sydney Barett", "Ptonomy Wallace", "Clark DeBussy","Admiral Fukuyama",];
       var punctArray = ["/", " & ",]
 
       var char1 = characters[Math.floor(Math.random() * characters.length)];

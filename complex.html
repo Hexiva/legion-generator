@@ -8,7 +8,7 @@
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+    <script src="scripts-complex.js"></script>
     <title>Fanfic Generator</title>
   </head>
   <body>
@@ -20,10 +20,12 @@
       <img src="https://github.com/Hexiva/legion-generator/blob/master/images/sidebar.png?raw=true"/>
     </div>
     <div class="container">
-      <button id="but" class="btn">Generate!</button>
-      <div id="story">
+      <form>
+              <button type="submit" class="btn">Generate prompt!</button>
+            </form>
+        <div id="story">
         <h1>Prompt:</h1>
-        <span class="content"></span>, <span class="prompt"></span>
+        <span class="content"></span>. <span class="prompt"></span>
       </div>
     </div>
 

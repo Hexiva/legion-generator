@@ -24,6 +24,19 @@ body {
   color: black;
 }
 
+.btn {
+  color: #eaeaea;
+  font-size: 18px;
+  font-family: impact;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+    margin-left: 223px;
+  border: 1px #fff solid;
+  background-color: black;
+  color: white;
+}
+
 #sidebar{
   width: 167px;
   padding-right:20px;
