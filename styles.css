@@ -16,13 +16,10 @@ h1 {
 body {
   background-color: black;
   color: white;
+  font-family: impact;
 }
 
-#but {
-    margin-top:30px;
-    margin-left:30px;
-  color: black;
-}
+
 
 .btn {
   color: #eaeaea;
@@ -76,4 +73,8 @@ body {
 .container{
   margin-left:300px;
 
+}
+
+a {
+    text-decoration: none;
 }
